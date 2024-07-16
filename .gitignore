@@ -1,0 +1,36 @@
+# Configuration files
+/config.php
+
+# Temporary files
+*.swp
+*.swo
+*.sdocx
+*.xlsx
+*.pptx
+
+# IDE and build tools
+/nbproject/
+/.idea/
+.phpstorm.*
+CVS
+.DS_Store
+/.settings/
+/.project/
+/.buildpath/
+/.cache
+
+# Testing
+phpunit.xml
+/behat.yml
+*/yui/build/*/*-coverage.js
+
+# Version control
+/vendor/
+
+# IDE specific editors (optional)
+/.vscode/
+
+# Excluded directories (modify with caution)
+/moodledata/  # This directory stores user data
+
+# You can add additional patterns here
